@@ -1,3 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import java.util.Scanner
+import kotlin.String
+
+fun main() {
+
+    val logicMainMenu = AppLogic()
+    logicMainMenu.start()
+
 }
